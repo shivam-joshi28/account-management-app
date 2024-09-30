@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Account Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that allows users to create and manage accounts. The application includes a login page, a registration page, and a account page where users can view and edit their account information. The project is built using React (V16+) and Bootstrap for styling.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User registration with name, email, and password.
+- User login with validation.
+- View and edit account information.
+- Basic styling using Bootstrap.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React (V16+)
+- React Router for navigation
+- Bootstrap for styling
+- Local Storage for data persistence
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (version 14 or higher)
+- npm (Node package manager)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository :
+   git clone https://github.com/shivam-joshi28/account-management-app.git
+2. Navigate to the project directory :
+   cd account-management-app
+3. Install the dependencies, Run :
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the Application
+To start the application in development mode, Run :
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application will be running on http://localhost:3000.
 
-### `npm run eject`
+## Usage
+### 1.Registration:
+Navigate to the registration page (/register).
+Fill in the required fields (name, email, and password) and submit.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2.Login:
+Navigate to the login page (/login).
+Enter your email and password to log in.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3.Account Management:
+After logging in, navigate to the account page (/account) to view and edit your account information.
+You can change your password from this page as well.
