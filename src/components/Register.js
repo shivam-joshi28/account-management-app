@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
+// component for Registration of new user
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

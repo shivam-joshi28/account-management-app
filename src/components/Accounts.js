@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+// component for Account view page
 const Account = () => {
   const navigate = useNavigate();
   const [isEditing, setIsEditing] = useState(false);
@@ -10,13 +11,12 @@ const Account = () => {
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  //
+  // Mock logout functionality
   const handleLogout = () => {
-    // Mock logout functionality
     navigate("/login");
   };
 
-  // function that handle the details save by users
+  // function that handle the details saved by users
   const handleSave = () => {
     // Save user details to localStorage
     localStorage.setItem("userName", name);
